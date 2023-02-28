@@ -1,0 +1,29 @@
+﻿@page "/"
+@using SpongeQRWeb;
+@using SpongeQRWeb.Models.Types
+
+@inject ISpongeQR _spongeQR;
+
+<div class="container">
+    <div class="row">
+        <h1 class="row page-heading">
+            Welcome to SpongeQR Web
+            <img class="blazor-img" src="images/blazor.svg" alt="Blazor Logo" />
+        </h1>
+    </div>
+    <div class="row">
+    </div>
+
+    <div class="row">
+        <p>A simple, "no brainer" QR Code Generation Tool. Completely free! Steal it and make it your own!</p>
+    </div>
+</div>
+
+@code {
+    private QRTypes? SelectedQRType = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+    }
+}

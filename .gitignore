@@ -1,0 +1,8 @@
+.vs/
+SpongeQR-wasm/bin/
+SpongeQR-wasm/obj/
+SpongeQR-wasm/*.user
+SpongeQR-wasm/artifacts/
+SpongeQR-wasm/.vscode/
+SpongeQR-wasm/.dotnet/
+SpongeQR-wasm/*.binlog
